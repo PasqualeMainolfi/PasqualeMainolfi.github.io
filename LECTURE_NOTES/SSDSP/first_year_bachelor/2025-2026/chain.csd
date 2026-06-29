@@ -17,7 +17,6 @@ instr Config
 
     n_instance:i = 10
 
-
     start_time:i = 0
     score:S = ""
     i:i = 0

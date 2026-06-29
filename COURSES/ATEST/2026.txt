@@ -1,0 +1,52 @@
+DIPARTIMENTO DI NUOVE TECNOLOGIE E LINGUAGGI MUSICALI
+CONSERVATORIO STATALE DI MUSICA "G. MARTUCCI" (SALERNO, IT)
+
+PROVA DI AMMISSIONE AL BIENNIO DI MUSICA ELETTRONICA
+----
+
+1. PROGETTAZIONE DI UN SISTEMA DSP REAL-TIME E UTILIZZO DI UN AGENTE LLM
+
+Scegli e descrivi un sistema di Digital Signal Processing (DSP) in tempo reale a tua scelta, illustrandone l’architettura, i principali moduli funzionali e i vincoli implementativi.
+
+Per farlo:
+
+a. progetta un prompt destinato a un agente basato su Large Language Model (LLM) che abbia il compito di pianificare l’implementazione del sistema;
+b. chiedi all’agente di individuare i principali problemi tecnici e progettuali che potrebbero emergere durante lo sviluppo;
+c. definisci una strategia di testing e validazione del sistema, indicando metodologie, casi di test e metriche ritenute rilevanti.
+
+
+2. INGEGNERIZZAZIONE DI UNA PERFORMANCE INTERATTIVA CON AUDIO GENERATIVO
+
+Si consideri una performance costituita da una ballerina e da un sistema di generazione sonora in tempo reale.
+Descrivi come utilizzeresti i dati provenienti dal movimento della performer per costruire mappe di controllo parametriche destinate al sistema audio.
+
+Nel tuo elaborato:
+
+a. specifica quali caratteristiche del movimento estrarresti (feature);
+b. indica quali parametri del sistema sonoro verrebbero controllati e con quale logica di mapping;
+c. descrivi eventuali tecniche di pre-elaborazione, filtraggio o ottimizzazione dei dati;
+d. individua il punto della pipeline architetturale in cui inseriresti un agente LLM, motivandone la scelta;
+e. discuti infine come progetteresti un sistema multi-agente, specificando i possibili ruoli e le responsabilità dei diversi agenti.
+
+
+3. IMPLEMENTAZIONE DI UN SISTEMA DI SINTESI GRANULARE
+
+Progetta e implementa una patch o un programma in un linguaggio di tua scelta (ad esempio Max/MSP, Pure Data, SuperCollider, C++, Faust, Python, ChucK o altro) che realizzi un procedimento di sintesi granulare alimentato da eventi sonori generati tramite un modello non lineare.
+
+L’elaborato dovrà includere il codice o la patch funzionante.
+
+N.B. Per questo elaborato è tassativamente vietato usare sistemi di AI o qualsiasi altro modello che non umano.
+
+CONSEGNA:
+
+Il candidato dovrà consegnare un’unica cartella denominata con il proprio nome e cognome.
+All’interno della cartella dovranno essere presenti i seguenti elaborati:
+
+- Prova 1: un documento in formato PDF denominato 1.pdf, contenente la risposta al primo quesito.
+- Prova 2: un documento in formato PDF denominato 2.pdf, contenente la risposta al secondo quesito.
+- Prova 3: si consiglia di creare una sottocartella denominata 3, contenente:
+    - la patch o il progetto sviluppato;
+    - tutte le eventuali dipendenze, librerie, file di supporto o risorse necessarie al corretto funzionamento;
+    - un breve file README (facoltativo ma consigliato) con le istruzioni per l’esecuzione della patch, qualora queste non siano immediatamente evidenti.
+
+La patch relativa alla Prova 3 dovrà essere consegnata in uno stato pienamente funzionante e tale da consentirne la valutazione senza ulteriori modifiche.
