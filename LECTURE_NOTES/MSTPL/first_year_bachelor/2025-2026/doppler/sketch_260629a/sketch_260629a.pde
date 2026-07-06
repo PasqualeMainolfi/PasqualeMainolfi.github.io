@@ -18,7 +18,8 @@ class SWave {
   }
   
   void update_radius() {
-    if (this.curr_radius > (W / 2)) { 
+    float curr_r = this.curr_radius + this.x_center;
+    if (curr_r > W * 2) { 
       this.is_out = true; 
     }
     this.curr_radius += RADIUS_STEP;
@@ -41,9 +42,13 @@ class SWave {
 }
 
 
-int capacity = 1000;
+int capacity = 100;
 SWave waves[];
 int curr_size = 0;
+float x_src = W / 2;
+float y_src = H / 2;
+float mstep = 10;
+float freq = 100; // Hz
 
 void setup() {
   size(600, 600);
@@ -54,32 +59,51 @@ void setup() {
 void draw() {
   background(0);
   fill(255);
-  circle(mouseX, mouseY, 10);
+  circle(x_src, y_src, 10);
   
   if (curr_size < capacity) {
-    waves[curr_size] = new SWave(mouseX, mouseY);
+    waves[curr_size] = new SWave(x_src, y_src);
     curr_size += 1;
   }
   
   for (int i = 0; i < curr_size; i++) {
-    if (curr_size < capacity && waves[i].is_out) {
-      waves[i].reset_wave(mouseX, mouseY);
+    if (waves[i].is_out) {
+      waves[i].reset_wave(x_src, y_src);
     }
   }
   
   for (int i = 0; i < curr_size; i++) {
-    if (curr_size < capacity) {
+    //if (curr_size < capacity) {
       waves[i].update_radius();
-    }
+    //}
   }
   
   for (int i = 0; i < curr_size; i++) {
-    if (curr_size < capacity) {
+    //if (curr_size < capacity) {
       waves[i].show_wave();
-    }
+    //}
   }
   
+  println(curr_size);
   
-  delay(20);
   
+  delay((int) (1 / freq * 1000));
+  
+}
+
+void keyPressed() {
+  switch(keyCode) {
+    case UP:
+      y_src -= mstep;
+      break;
+    case DOWN:
+      y_src += mstep;
+      break;
+    case LEFT:
+      x_src -= mstep;
+      break;
+    case RIGHT:
+      x_src += mstep;
+      break;
+  }
 }
