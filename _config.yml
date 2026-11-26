@@ -1,0 +1,64 @@
+title: Pasquale Mainolfi
+description: Computer music courses. Programs, lecture notes, code examples and assignments.
+url: https://pasqualemainolfi.github.io
+baseurl: ""
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "Telegram channel": https://t.me/PasqualeMainolfi
+  "GitHub": https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io
+aux_links_new_tab: true
+
+gh_edit_link: false
+
+footer_content: >-
+  © Pasquale Mainolfi. All materials are for educational use only: reproduction,
+  distribution, modification or commercial use without explicit permission is prohibited.
+
+relative_links:
+  enabled: true
+  collections: false
+
+callouts:
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Important
+    color: yellow
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # code folders: only the index pages appear in the navigation
+  - scope:
+      path: scripts
+    values:
+      nav_exclude: true
+      search_exclude: true
+  - scope:
+      path: assignments
+    values:
+      nav_exclude: true
