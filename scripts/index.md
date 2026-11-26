@@ -16,7 +16,7 @@ Want everything at once? [Download the whole repository as a ZIP](https://github
 
 | Category | Topics | Examples |
 |:---------|:-------|:--------:|
-| [Getting Started](getting-started/index.md) | First steps with Csound, Cabbage and Python, plus conda environments. | 10 |
+| [Getting Started](getting-started/index.md) | First steps with Csound, Cabbage and Python. | 10 |
 | [Synthesis](synthesis/index.md) | Oscillators, additive, AM/RM, FM and granular synthesis. | 16 |
 | [Filters & Effects](filters-and-effects/index.md) | Filters, EQ, vocoder, envelope following and distortion. | 7 |
 | [Delay, Reverb & Convolution](delay-and-reverb/index.md) | Delay lines, comb and all-pass filters, convolution. | 10 |

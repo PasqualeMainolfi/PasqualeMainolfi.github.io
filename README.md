@@ -15,6 +15,7 @@ Updates and communications: Telegram channel `@PasqualeMainolfi`.
 | `lecture-notes/` | Handouts (PDF) |
 | `scripts/<category>/` | Code examples grouped by topic |
 | `assignments/` | Exam projects |
+| `setup.md` | Workspace setup (software installation) |
 | `calendar.md`, `faq.md`, `thesis.md` | Calendar, FAQ, thesis guidelines |
 | `_config.yml` | Site configuration (Jekyll + Just the Docs theme) |
 | `_archive/` | Old material, not published on the site |

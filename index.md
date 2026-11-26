@@ -33,6 +33,7 @@ Before anything else, join the Telegram channel **@PasqualeMainolfi**. I use it 
 
 ## Information
 
+- [Setup](setup.md): install the software you need for the courses.
 - [Class calendar](calendar.md): lesson dates and times.
 - [FAQ](faq.md): attendance, exams, contacts.
 - [Thesis](thesis.md): procedures and guidelines for your thesis.

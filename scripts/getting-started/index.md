@@ -8,7 +8,7 @@ search_exclude: false
 
 # Getting Started
 
-First steps with Csound, Cabbage and Python, plus conda environments.
+First steps with Csound, Cabbage and Python. To install the tools, see [Setup](../../setup.md).
 
 | File | What it shows | Language | Course |
 |:-----|:--------------|:---------|:-------|
@@ -20,5 +20,5 @@ First steps with Csound, Cabbage and Python, plus conda environments.
 | [`lex903.csd`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/lex903.csd) | Function tables (ftgen), table reading and percussive envelopes. | Csound | Sound Synthesis & Processing · BA 1 |
 | [`intro_ric.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/intro_ric.py) | Python warm-up: recursion and timing. | Python | Sound Synthesis & Processing · BA 1 |
 | [`cabbage/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/cabbage) | First Cabbage instrument: GUI controls for amplitude and frequency. | Csound | Sound Synthesis & Processing · BA 2 |
-| [`environments/mstpl2.yml`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/environments/mstpl2.yml) | Conda environment. | Conda env | Multimedia Programming · BA 2 |
-| [`environments/mstpl_step1.yml`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/environments/mstpl_step1.yml) | Conda environment. | Conda env | Multimedia Programming · BA 3 |
+| [`environments/mstpl2.yml`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/environments/mstpl2.yml) | Old conda environment (now replaced by uv, see Setup). | Conda env | Multimedia Programming · BA 2 |
+| [`environments/mstpl_step1.yml`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/environments/mstpl_step1.yml) | Old conda environment (now replaced by uv, see Setup). | Conda env | Multimedia Programming · BA 3 |

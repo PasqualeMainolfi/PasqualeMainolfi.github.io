@@ -33,7 +33,7 @@ By the end of the course you will be able to:
 ### 1. MIDI (6h)
 
 - The MIDI protocol: notes, events, channels and messages
-- MIDI libraries in Python and Java-Processing
+- MIDI libraries in Python and Processing
 - Control and event generation: integrating virtual instruments and hardware
 - **Lab:** a MIDI controller and sequencer in Python or Processing
 
@@ -41,7 +41,7 @@ By the end of the course you will be able to:
 
 - TCP/IP and UDP: a brief overview
 - The Open Sound Control (OSC) protocol: clients and servers
-- OSC libraries in Python and Java-Processing
+- OSC libraries in Python and Processing
 - Bidirectional communication systems
 - **Lab:** two applications exchanging data over OSC
 

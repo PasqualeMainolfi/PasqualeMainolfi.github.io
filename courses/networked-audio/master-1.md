@@ -16,7 +16,7 @@ nav_order: 1
 | **Duration** | 30h |
 | **Study hours** | 120h |
 | **CFA** | 6 |
-| **Prerequisites** | Bachelor Degree<br>Intermediate knowledge of programming languages such as Python or Java is required, including: knowledge of data structures like lists, tuples, dictionaries, and sets; understanding of control structures like if-else statements, for and while loops; ability to handle input/output operations for file handling (I/O); string manipulation skills; implementation of lambda functions; comprehension of object-oriented programming concepts such as class creation, inheritance, encapsulation, and polymorphism. Additionally, a basic understanding of concepts related to audio and video formats is required, including a grasp of the fundamental principles of audio and video compression. |
+| **Prerequisites** | Bachelor Degree<br>Intermediate knowledge of the Python programming language is required, including: knowledge of data structures like lists, tuples, dictionaries, and sets; understanding of control structures like if-else statements, for and while loops; ability to handle input/output operations for file handling (I/O); string manipulation skills; implementation of lambda functions; comprehension of object-oriented programming concepts such as class creation, inheritance, encapsulation, and polymorphism. Additionally, a basic understanding of concepts related to audio and video formats is required, including a grasp of the fundamental principles of audio and video compression. |
 | **Evaluation** | Eligibility test |
 
 ## Learning outcomes

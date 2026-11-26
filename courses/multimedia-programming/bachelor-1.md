@@ -47,7 +47,7 @@ By the end of the course you will be able to:
 
 ### 3. Programming with Processing (8h)
 
-- Java-Processing for interactive multimedia content
+- Processing for interactive multimedia content
 - Variables, data types, operators and control structures
 - Graphics, animation and sound libraries
 - **Lab:** generative animations in Processing
