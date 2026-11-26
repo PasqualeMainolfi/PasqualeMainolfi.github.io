@@ -7,52 +7,69 @@ nav_order: 3
 
 # Multimedia Programming: Bachelor 3
 
-|                          |     |
-|:-------------------------|:----|  
-|**Duration of the course**|20h  |
-|**Study hours**           |80h |
-|**CFA**                   |4    |
-|**Prerequisites**         |Multimedia Programming, Bachelor 2<br>Sound Synthesis & Processing, Bachelor 2|
-|**Evaluation**            |Exam. Evaluation and discussion of a student-selected and implemented verification project from a series of proposals provided by the instructor. The proposals will have different levels of difficulty and will require the application of specific knowledge and skills acquired during the course. The student will present their chosen project, providing a detailed description of their work, the methods used, and the results obtained. During this phase, the evaluation committee will have the opportunity to ask questions and seek further clarification about the project. The project evaluation will be based on specific criteria, including originality, depth of analysis, implementation quality, and accuracy of results. The committee will also consider the student's ability to explain and defend their work in a clear and persuasive manner. Ultimately, the committee will formulate a final judgment on the exam based on the project evaluation and discussion. The assessment will consider the merits of the work, the student's grasp of the theoretical concepts covered in the course, and their ability to effectively present and communicate ideas and reasoning. It's important to note that the exam will be conducted rigorously, objectively, and impartially, with the sole purpose of evaluating the student's acquired skills and abilities.|
-|                          |     |
+**Focus:** Machines that perceive: extracting information from images, video and sound to drive interactive works.
 
->**Module 1:**
+**Path:** **Bachelor 1** create → **Bachelor 2** connect → **Bachelor 3 (this course)** perceive → **Master 1** sense the body → **Master 2** read the brain
 
-- Introduction to OpenCV: an open-source library for image and video processing
-- Installation and configuration of OpenCV for the development environment
-- Digital images, color spaces, bit depth, and common file formats
-- Fundamentals of image and video processing
-- Loading, accessing, manipulating, and displaying images and videos using OpenCV
-- Basic filters to enhance the appearance of an image, such as blurring, sharpening, and noise reduction filters
-- Geometric transformations: resizing, rotation, translation, and perspective
-- Advanced filters like edge detection (e.g., Canny edge detection) and detection of lines and geometric shapes.
+| | |
+|:--|:--|
+| **Duration** | 20h |
+| **Study hours** | 80h |
+| **CFA** | 4 |
+| **Prerequisites** | Multimedia Programming, Bachelor 2<br>Sound Synthesis & Processing, Bachelor 2 |
+| **Evaluation** | Exam |
 
->**Module 2:**
+## Learning outcomes
 
-- Fundamentals of audio processing in multimedia contexts
-- Analysis, manipulation, and audio feature extraction
+By the end of the course you will be able to:
+
+- load, process and transform images and video with OpenCV
+- extract audio features for interactive applications
+- track faces, hands and bodies in real time with MediaPipe
+- turn visual and audio features into sound and image in a working installation
+
+## Units
+
+### 1. Images and video with OpenCV (7h)
+
+- Installation and configuration of OpenCV
+- Digital images: color spaces, bit depth, file formats
+- Loading, accessing, manipulating and displaying images and videos
+- Filters: blurring, sharpening, noise reduction
+- Geometric transformations: resizing, rotation, translation, perspective
+- Edge detection (Canny) and detection of lines and shapes
+- **Lab:** a webcam pipeline with filters and edge detection
+
+### 2. Audio analysis for interaction (4h)
+
+- Audio processing in multimedia contexts
+- Analysis, manipulation and audio feature extraction
 - Audio synthesis and interactive playback
+- **Lab:** real-time features from a microphone driving graphics
 
->**Module 3:**
+### 3. Tracking bodies with MediaPipe (6h)
 
-- Fundamental concepts of the MediaPipe framework
-- Creating processing pipelines with MediaPipe
-- Using MediaPipe for image processing: feature extraction, object detection and tracking, filters, and transformations
-- Using MediaPipe for video processing: motion analysis and temporal tracking
-- Using MediaPipe for real-time tracking of objects, faces, hands, facial expressions, and poses
+- Fundamental concepts of the MediaPipe framework and its pipelines
+- Feature extraction, object detection and tracking in images
+- Motion analysis and temporal tracking in video
+- Real-time tracking of faces, hands, facial expressions and poses
+- **Lab:** hand or pose tracking controlling sound
 
->**Lab:**
+### 4. From perception to sound (3h)
 
-- Implementation of practical projects that combine the concepts learned during the course modules
-- Using OpenCV and MediaPipe to develop interactive multimedia applications in Python, JavaScript, and CSound environments.
+- Mapping visual and audio features to sound and image
+- Latency and robustness of perception-driven systems
+- **Lab:** an interactive application with OpenCV/MediaPipe in Python, JavaScript and Csound
 
->---
->
->### **Suggested Readings**  
->
->- **I strongly recommend visiting the NIME portal at <https://www.nime.org/>. You will find a wide range of articles that will expand your horizons**  
->
->---
+## Assessment
+
+**Exam.** A project chosen from the instructor's proposals ([assignments](../../assignments/multimedia-programming/index.md)). Rules and criteria: see [Assessment](index.md#assessment) on the course page.
+
+## Suggested readings
+
+- **Szeliski, R.**, Computer Vision: Algorithms and Applications, 2nd edition. Springer 2022.
+- **Lugaresi, C., et al.**, MediaPipe: A Framework for Building Perception Pipelines. arXiv:1906.08172, 2019.
+- **Müller, M.**, Fundamentals of Music Processing: Using Python and Jupyter Notebooks, 2nd edition. Springer 2021.
 
 ---
 

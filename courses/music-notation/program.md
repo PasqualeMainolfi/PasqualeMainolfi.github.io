@@ -7,46 +7,69 @@ nav_order: 1
 
 # Music Notation: Program
 
-|                          |     |
-|:-------------------------|:----|  
-|**Duration of the course**|30h  |
-|**Study hours**           |45h  |
-|**CFA**                   |3    |
-|**Prerequisites**         |A basic knowledge of computer science concepts. |
-|**Evaluation**            |Exam/Elegibility test. Throughout the course, everyone will be required to complete two written tests, which consist of transcribing excerpts from sheet music. One test will be administered halfway through the course, and the other at the end. Since it's a mixed course, students should refer to the curriculum to determine the evaluation method: eligibility or exam?<br>Eligibility test: Each test will be scored out of thirty. To pass, students need to achieve an average score of 18 or higher out of 30.<br>Exam: In addition to the two written tests, there will be a short interview as part of the examination process. During the interview, the committee will assess the students understanding and application of the theoretical concepts learned in the course. Each test (including the two written tests and the interview) will be scored out of ten. To pass the examination, students must accumulate a score of 18 or higher out of 30.<br>It's important to emphasize that the tests will be conducted strictly, objectively, and impartially to evaluate the skills and abilities acquired by the students.|
-|                          |     |
+**Focus:** Digital engraving: writing, laying out and publishing scores with professional notation software.
 
->**Module 1**  
+**Path:** enter → express → ensemble → engrave → publish
 
-- Overview of the course and introduction to digital notation software (Sibelius, Finale).
-- Introduction to basic concepts of music notation: notes, rests, durations, clefs, accidentals.
-- Practical exercises on entering basic notes.
+| | |
+|:--|:--|
+| **Duration** | 30h |
+| **Study hours** | 45h |
+| **CFA** | 3 |
+| **Prerequisites** | A basic knowledge of computer science concepts. |
+| **Evaluation** | Exam or eligibility test |
 
->**Module 2**  
+## Learning outcomes
 
-- In-depth exploration of advanced notation concepts: dynamics, articulations, ties, slides, trills.
-- Techniques for writing multiple voices, polyphony, and harmony.
-- Writing for multiple instruments and introduction to managing orchestral parts.
-- Practical exercises on entering advanced elements.
-- Practical exercises on entering and managing a score with multiple instruments.
+By the end of the course you will be able to:
 
->**Module 3**  
+- enter music quickly and correctly with a notation program
+- notate dynamics, articulations, ornaments and multiple voices
+- prepare scores and parts for ensembles, including instrument-specific techniques
+- lay out and format a score for print or digital publication
+- proofread a score and deliver it in the appropriate formats
 
-- Study of instruments and special techniques such as woodwinds, brass, strings, percussion.
-- Use of special symbols such as chords, arpeggios, complex rhythms.
-- Practical exercises on entering instruments and special symbols.
+## Units
 
->**Module 4**  
+### 1. Notation software and basic notation (5h)
 
-- Layout management for scores, including systems, pages, spacing.
-- Formatting scores, including titles, text, page numbering.
-- Practical exercises on formatting scores using the software.
+- Digital notation software (Sibelius, Dorico, MuseScore)
+- Notes, rests, durations, clefs, accidentals
+- **Lab:** entering basic notes
 
->**Module 5**  
+### 2. Expressive notation (7h)
 
-- Techniques for reviewing and correcting scores to ensure accuracy and readability.
-- Preparation of scores for digital or print publication and sharing.
-- Practical exercises on reviewing and publishing scores using the software.
+- Dynamics, articulations, ties, slides, trills
+- Multiple voices, polyphony and harmony
+- Chords, arpeggios and complex rhythms
+- **Lab:** entering advanced elements
+
+### 3. Scores for ensembles (7h)
+
+- Writing for multiple instruments; managing orchestral parts
+- Instruments and special techniques: woodwinds, brass, strings, percussion
+- **Lab:** a multi-instrument score with parts (mid-course test after this unit)
+
+### 4. Layout and engraving (6h)
+
+- Systems, pages and spacing
+- Titles, text, page numbering and formatting
+- **Lab:** formatting a full score
+
+### 5. Proofreading and publishing (5h)
+
+- Reviewing and correcting scores for accuracy and readability
+- Preparing scores for print and digital publication and sharing
+- **Lab:** reviewing and publishing a score (final test)
+
+## Assessment
+
+**Exam or eligibility test**, depending on your study plan: two written transcription tests (mid-course and end of course), plus a short interview for the exam. Rules and criteria: see [Assessment](index.md#assessment) on the course page.
+
+## Suggested readings
+
+- **Gould, E.**, Behind Bars: The Definitive Guide to Music Notation. Faber Music 2011.
+- **Stone, K.**, Music Notation in the Twentieth Century: A Practical Guidebook. Norton 1980.
 
 ---
 

@@ -13,11 +13,15 @@ Official course name: *Sampling, Synthesis and Digital Sound Processing* (COME/0
 
 ## Course programs
 
-- [Bachelor 1](bachelor-1.md)
-- [Bachelor 2](bachelor-2.md)
-- [Bachelor 3](bachelor-3.md)
-- [Master 1](master-1.md)
-- [Master 2](master-2.md)
+**Path:** represent → transform → model → search → learn
+
+| Year | Focus |
+|:--|:--|
+| [Bachelor 1](bachelor-1.md) | Sound as a digital signal: sampling, spectrum, additive and subtractive synthesis, stereo |
+| [Bachelor 2](bachelor-2.md) | Time and nonlinearity: delays, reverberation, modulation, granular, N-channel space |
+| [Bachelor 3](bachelor-3.md) | Models of sound: wavetables, spectral processing and convolution, physical modeling |
+| [Master 1](master-1.md) | Searching sound spaces: optimization and evolutionary algorithms |
+| [Master 2](master-2.md) | Learning from sound: neural networks for audio |
 
 ## Course Objectives
 The course objectives aim to provide students with a solid foundation of knowledge in the field of sampling, synthesis, and digital sound processing, as well as the ability to use programming languages to implement audio algorithms and develop practical projects in the field of digital audio. Students will acquire theoretical and practical tools to conduct detailed analysis of audio signals, enabling them to deeply understand the acoustic characteristics of sounds. They will learn to develop scientific communication skills through the study of relevant articles and will be encouraged to write documents to present and share the results of their research.  
@@ -57,6 +61,23 @@ Specifically:
     - Understand the basic concepts of artificial intelligence applied to the field of digital audio.
     - Learn to use AI frameworks and libraries such as TensorFlow or PyTorch for audio synthesis and manipulation.
     - Explore the potentials of Evolutionary Algorithms (Genetic Algorithms, Swarm Intelligence, etc.) applied to parameter optimization in synthesis, generation, and manipulation of audio signals.
+
+## Assessment
+
+Each year of the course ends with a project. Your study plan says whether it counts as an **exam** (graded out of 30) or an **eligibility test** (pass/fail). Each program page says which project applies to that year.
+
+**Which project**
+
+- **Bachelor:** you choose a project from the instructor's proposals, which have different levels of difficulty and require specific knowledge and skills from the course ([see the assignments](../../assignments/sound-processing/index.md)).
+- **Master:** you propose a project on the course topics and agree on it with the instructor in advance.
+
+**Criteria:** originality, depth of analysis, quality of implementation, accuracy of results, and your understanding and application of the theoretical concepts of the course.
+
+**Exam.** You present your project: your work, the methods you used and the results. The committee may ask questions and further clarification, and also considers your ability to explain and defend your work clearly. The final grade is based on the project and the discussion.
+
+**Eligibility test.** The project is evaluated with the same criteria and leads to a judgment of eligibility or non-eligibility.
+
+All tests are conducted rigorously, objectively and impartially, with the sole purpose of evaluating the skills and abilities you have acquired.
 
 ## References
 - **Nierhaus G.**, Algorithmic Composition, Paradigms of Automated Music Generation, Springer 2009  

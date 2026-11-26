@@ -7,65 +7,69 @@ nav_order: 2
 
 # Multimedia Programming: Bachelor 2
 
-|                          |     |
-|:-------------------------|:----|  
-|**Duration of the course**|25h  |
-|**Study hours**           |100h |
-|**CFA**                   |5    |
-|**Prerequisites**         |Multimedia Programming, Bachelor 1<br>Sound Synthesis & Processing, Bachelor 1|
-|**Evaluation**            |Exam. Evaluation and discussion of a student-selected and implemented verification project from a series of proposals provided by the instructor. The proposals will have different levels of difficulty and will require the application of specific knowledge and skills acquired during the course. The student will present their chosen project, providing a detailed description of their work, the methods used, and the results obtained. During this phase, the evaluation committee will have the opportunity to ask questions and seek further clarification about the project. The project evaluation will be based on specific criteria, including originality, depth of analysis, implementation quality, and accuracy of results. The committee will also consider the student's ability to explain and defend their work in a clear and persuasive manner. Ultimately, the committee will formulate a final judgment on the exam based on the project evaluation and discussion. The assessment will consider the merits of the work, the student's grasp of the theoretical concepts covered in the course, and their ability to effectively present and communicate ideas and reasoning. It's important to note that the exam will be conducted rigorously, objectively, and impartially, with the sole purpose of evaluating the student's acquired skills and abilities.|
-|                          |     |
+**Focus:** Connecting systems: making programs, instruments and devices talk to each other through MIDI, OSC and the network.
 
->**Module 1:**
+**Path:** **Bachelor 1** create → **Bachelor 2 (this course)** connect → **Bachelor 3** perceive → **Master 1** sense the body → **Master 2** read the brain
 
-- The MIDI (Musical Instrument Digital Interface) protocol
-- Notes, events, channels, and MIDI messages
-- Using specific libraries to handle MIDI protocol in Python and Java-Processing
-- Designing advanced communication systems for control and event generation: integrating virtual instruments and hardware via MIDI protocol
+| | |
+|:--|:--|
+| **Duration** | 25h |
+| **Study hours** | 100h |
+| **CFA** | 5 |
+| **Prerequisites** | Multimedia Programming, Bachelor 1<br>Sound Synthesis & Processing, Bachelor 1 |
+| **Evaluation** | Exam |
 
->**Module 2:**
+## Learning outcomes
 
-- TCP/IP, UDP, and network communication protocols: a brief overview
-- Transmitting and managing information within one or more interactive systems: the Open Sound Control (OSC) protocol
-- Clients and servers in the OSC protocol
-- Using specific libraries for OSC communication in Python and Java-Processing
-- Designing bidirectional communication systems using the OSC protocol
+By the end of the course you will be able to:
 
->**Module 3:**
+- read and generate MIDI messages in Python and Processing
+- design client/server and bidirectional systems with OSC over UDP/TCP
+- map input data to musical and visual parameters (scaling, smoothing, transformation)
+- build and debug a system where Python, Processing and Csound work together
 
-- Techniques for optimizing input data
-- Extracting, analyzing, transforming, and optimizing input data
-- Developing algorithms for advanced manipulation and transformation of input data
+## Units
 
->**Module 4:**
+### 1. MIDI (6h)
 
-- Introduction to programming with Python in the multimedia context
-- Using CSound for control and generation of sound events
-- Using specific libraries to handle MIDI protocol in Python, Java-Processing, and CSound
-- Using specific libraries for OSC communication in Python, Java-Processing, and CSound
+- The MIDI protocol: notes, events, channels and messages
+- MIDI libraries in Python and Java-Processing
+- Control and event generation: integrating virtual instruments and hardware
+- **Lab:** a MIDI controller and sequencer in Python or Processing
 
->**Lab:**
+### 2. Networks and OSC (6h)
 
-- Using CSound as an environment for generating and controlling audio events
-- Hands-on practice with the concepts learned during the course
-- Developing interactive multimedia projects using Python and/or Java-Processing
-- Troubleshooting and debugging applications
+- TCP/IP and UDP: a brief overview
+- The Open Sound Control (OSC) protocol: clients and servers
+- OSC libraries in Python and Java-Processing
+- Bidirectional communication systems
+- **Lab:** two applications exchanging data over OSC
 
->---
->
->### **Suggested Readings**  
->
->- **I strongly recommend visiting the NIME portal at <https://www.nime.org/>. You will find a wide range of articles that will expand your horizons**  
->- **Wright, M., & Freed, A.**, Open SoundControl: A new protocol for communicating with sound synthesizers. In ICMC 1997
->- **Ericson, C.**, Real-time collision detection. Crc Press 2004
->- **Short, T., & Adams, T. (Eds.)**, Procedural generation in game design. CRC Press 2007
->- **Farnell, A.**, Designing sound. Mit Press 2010
->- **Lowe, D.**, Networking All-in-one for Dummies. John Wiley & Sons 2016
->- **Kurose, K. R.**, Computer Networking: A Top-Down Approach by James. Kurose, Keith W. Ross.—, 601, 2017
->- **Jensenius, A. R.**, Action-sound: Developing methods and tools to study music-related body movement, 2007
->- **Wright, M., Freed, A., & Momeni, A.**, 2003: OpenSound Control: State of the Art 2003. A NIME Reader: Fifteen Years of New Interfaces for Musical Expression, 125-145, 2017  
->
->---
+### 3. Data mapping (5h)
+
+- Extracting, analysing and transforming input data
+- Scaling, smoothing and optimizing control data
+- Mapping strategies: from input data to sound and image parameters
+- **Lab:** mapping a data stream to a sound and a visual parameter
+
+### 4. Integrated systems: Python, Processing, Csound (8h)
+
+- Python in the multimedia context
+- Csound for the control and generation of sound events
+- MIDI and OSC in Csound
+- Troubleshooting and debugging distributed applications
+- **Lab:** an interactive multimedia project combining Processing, Python and Csound
+
+## Assessment
+
+**Exam.** A project chosen from the instructor's proposals ([assignments](../../assignments/multimedia-programming/index.md)). Rules and criteria: see [Assessment](index.md#assessment) on the course page.
+
+## Suggested readings
+
+- **Wright, M., & Freed, A.**, Open SoundControl: A New Protocol for Communicating with Sound Synthesizers. Proceedings of the International Computer Music Conference, 1997.
+- **The MIDI Association**, MIDI 1.0 Detailed Specification.
+- **Hunt, A., & Wanderley, M. M.**, Mapping performer parameters to synthesis engines. Organised Sound, 7(2), 97-108, 2002.
+- **Lazzarini, V., Yi, S., Heintz, J., Brandtsegg, Ø., & McCurdy, I.**, Csound: A Sound and Music Computing System. Springer 2016.
 
 ---
 

@@ -19,15 +19,12 @@ Delay lines, comb and all-pass filters, convolution.
 | [`allcomb.csd`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/allcomb.csd) | Comb and all-pass filters: formulas and implementation. | Csound | Sound Synthesis & Processing · BA 2 |
 | [`all_pass.csd`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/all_pass.csd) | All-pass filter. | Csound | Sound Synthesis & Processing · BA 2 |
 | [`intro_comb.csd`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/intro_comb.csd) | Comb filters as reverb building blocks. | Csound | Sound Synthesis & Processing · MA 1 |
-| [`hybrid_ir/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/hybrid_ir) | Hybrid impulse responses and energy decay curves (two IRs included). | Python | Sound Synthesis & Processing · MA 1 |
+| [`hybrid_ir/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/hybrid_ir) | Hybrid impulse responses and energy decay curves. | Python | Sound Synthesis & Processing · MA 1 |
 | [`realtime_convolution/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/realtime_convolution) | Block convolution with an impulse response and real-time playback. | Python | Sound Synthesis & Processing · MA 1 |
 | [`fft_convolution/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/fft_convolution) | FFT convolution with SciPy, plus PDF notes. | Python | Multimedia Programming · BA 1 |
 
-## Audio and media files
+## Media files
 
 | File | Description | Course |
 |:-----|:------------|:-------|
-| [`n.wav`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/n.wav) | Audio example. | Sound Synthesis & Processing · BA 2 |
-| [`c.wav`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/c.wav) | Audio example. | Sound Synthesis & Processing · MA 1 |
 | [`allpass.png`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/allpass.png) | All-pass filter diagram. | Sound Synthesis & Processing · BA 2 |
-| [`test.aif`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/delay-and-reverb/test.aif) | Audio example. | Sound Synthesis & Processing · MA 1 |

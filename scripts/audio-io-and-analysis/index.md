@@ -17,14 +17,7 @@ Real-time audio, file formats, streaming and signal analysis.
 | [`wav_prot.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/wav_prot.py) | Reading the WAV (RIFF) format by hand. | Python | Multimedia Programming · BA 3 |
 | [`tkinter1.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/tkinter1.py) | Minimal Tkinter GUI to load and play audio files. | Python | Multimedia Programming · BA 3 |
 | [`proc.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/proc.py) | Streaming audio from a URL with ffplay (subprocess). | Python | Networked Audio · MA 1 |
-| [`sampler/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/sampler) | Csound sound-file sampler (audio file included). | Csound |  |
+| [`sampler/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/sampler) | Csound sound-file sampler. | Csound |  |
 | [`amp_follower.ipynb`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/amp_follower.ipynb) | Amplitude follower (RMS envelope) in Python. | Python (notebook) | Sound Synthesis & Processing · BA 2 |
 | [`costellation.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/costellation.py) | Spectral peak constellation (audio fingerprinting). | Python | Sound Synthesis & Processing · MA 1 |
 | [`test_sr.ipynb`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/test_sr.ipynb) | Sample-rate experiments with librosa. | Python (notebook) | Multimedia Programming · BA 3 |
-
-## Audio and media files
-
-| File | Description | Course |
-|:-----|:------------|:-------|
-| [`test.wav`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/test.wav) | Test file for wav_prot.py. | Multimedia Programming · BA 3 |
-| [`t.wav`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/audio-io-and-analysis/t.wav) | Audio example. | Sound Synthesis & Processing · MA 1 |

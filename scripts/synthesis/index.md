@@ -29,13 +29,10 @@ Oscillators, additive, AM/RM, FM and granular synthesis.
 | [`granular_cloud/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/granular_cloud) | Granular clouds: Csound instrument + Python score generator. | Csound, Python | Sound Synthesis & Processing · BA 2 |
 | [`grain.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/grain.py) | Granular synthesis in Python (NumPy, librosa). | Python | Multimedia Programming · MA 1 |
 
-## Audio and media files
+## Media files
 
 | File | Description | Course |
 |:-----|:------------|:-------|
-| [`test_add.wav`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/test_add.wav) | Audio example. | Sound Synthesis & Processing · BA 1 |
-| [`testam.wav`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/testam.wav) | Audio example (AM). | Sound Synthesis & Processing · BA 2 |
-| [`fm.wav`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/fm.wav) | Audio example (FM). | Sound Synthesis & Processing · BA 2 |
 | [`CrossFM.png`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/CrossFM.png) | Cross FM diagram. | Sound Synthesis & Processing · BA 2 |
 | [`DX7-FM.png`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/DX7-FM.png) | DX7 algorithm diagram. | Sound Synthesis & Processing · BA 2 |
 | [`scheme.dx7`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/synthesis/scheme.dx7) | DX7 scheme. | Sound Synthesis & Processing · BA 2 |

@@ -32,4 +32,4 @@ Want everything at once? [Download the whole repository as a ZIP](https://github
 **Course column:** BA = Bachelor, MA = Master (e.g. *Sound Synthesis & Processing · BA 2* = second year of the Bachelor).
 
 {: .note }
-Some examples load audio files through absolute paths from my computer (e.g. `/Users/pm/...`). Replace them with a path to a file on your machine before running.
+Audio files are not included in the repository: use your own sounds. Some examples load audio files through absolute paths from my computer (e.g. `/Users/pm/...`). Replace them with a path to a file on your machine before running.

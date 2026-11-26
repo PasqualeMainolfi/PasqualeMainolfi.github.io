@@ -7,69 +7,75 @@ nav_order: 1
 
 # Multimedia Programming: Bachelor 1
 
-|                          |     |
-|:-------------------------|:----|  
-|**Duration of the course**|30h  |
-|**Study hours**           |95h  |
-|**CFA**                   |5    |
-|**Prerequisites**         |A knowledge of basic programming concepts using languages such as JavaScript, Python, or Java, HTML, and CSS is required. Additionally, a basic understanding of CSound, a programming language for sound synthesis, is necessary. This understanding should include at least comprehension of the structure of a .csd file, basic syntax, data types, and the ability to generate a simple sound event using opcodes such as oscillators or noise generators. |
-|**Evaluation**            |Eligibility test. Evaluation of a student-selected and implemented verification project from a series of proposals provided by the instructor. The proposals will have different levels of difficulty and will require the application of specific knowledge and skills acquired during the course. The project assessment will consider factors such as originality, depth of analysis, quality of implementation, and accuracy of results. Based on this evaluation, a judgment of eligibility or non-eligibility will be determined for the student. The assessment will also take into account the student's ability to understand and apply the theoretical concepts covered in the course. It's important to note that the test will be conducted fairly and objectively, solely aimed at evaluating the student's skills and abilities.|
-|                          |     |
+**Focus:** Code as a medium: designing and programming interactive visual works, from Processing to the web.
 
->**Module 1:**
+**Path:** **Bachelor 1 (this course)** create → **Bachelor 2** connect → **Bachelor 3** perceive → **Master 1** sense the body → **Master 2** read the brain
 
-- Multimedia Works
-- Fundamentals of multimedia works and distinctive characteristics
-- Exploration of artistic forms and practical applications of multimedia works
-- Critical analysis of significant examples of multimedia works
+| | |
+|:--|:--|
+| **Duration** | 30h |
+| **Study hours** | 95h |
+| **CFA** | 5 |
+| **Prerequisites** | A knowledge of basic programming concepts using languages such as JavaScript, Python, or Java, HTML, and CSS is required. Additionally, a basic understanding of CSound, a programming language for sound synthesis, is necessary. This understanding should include at least comprehension of the structure of a .csd file, basic syntax, data types, and the ability to generate a simple sound event using opcodes such as oscillators or noise generators. |
+| **Evaluation** | Eligibility test |
 
->**Module 2:**
+## Learning outcomes
 
-- Shaping Form, Constructing Structure, and Providing Content in the context of visual arts and communication
-- Study of key concepts and terminologies related to form and structure, such as symmetry, asymmetry, balance, proportion, rhythm, and visual hierarchy, etc.
-- Designing a possible strategy as the foundation of a targeted, effective, and functional compositional idea
+By the end of the course you will be able to:
 
->**Module 3:**
+- analyse a multimedia work and describe its form and structure
+- apply composition principles (balance, rhythm, proportion, hierarchy) to a visual project
+- write interactive sketches in Processing using variables, control structures and objects
+- handle user interaction with events and callbacks
+- publish an interactive work on the web with p5.js, HTML and CSS
 
-- Introduction to the Java-Processing programming language and its application in the field of interactive multimedia content creation
-- Learning the fundamental programming concepts using Java-Processing: variables, data types, operators, and control structures
-- Introduction to object-oriented programming and code organization using classes, objects, and methods
-- Exploring the features and libraries of Processing for graphic manipulation, animations, and sound
-- Using callback functions for user interactions and event handling
+## Units
 
->**Module 4:**
+### 1. Multimedia works (4h)
 
-- Introduction to p5.js as a programming framework for creating interactive multimedia content on the web
-- Learning the fundamental concepts of JavaScript programming and its usage with p5.js for creating multimedia content on the web
-- Introduction to HTML and CSS for web page creation and the organization of content and graphic style
-- Introduction to object-oriented programming and code organization using classes, objects, and methods in JavaScript
-- Exploring the features of p5.js for graphic manipulation, animations, interactivity, and user input
+- Fundamentals and distinctive characteristics of multimedia works
+- Artistic forms and practical applications
+- Critical analysis of significant examples
+- **Lab:** analysis of a multimedia work, presented to the class
 
->**Lab:**
+### 2. Form, structure and content (4h)
 
-- Getting familiar with the development environment of Java-Processing and JavaScript-p5.js.
-- Experimenting with the creation of interactive animations using the basic programming concepts in Processing.
-- Exploring the features of p5.js for creating multimedia projects on the web.
-- Applying object-oriented programming knowledge to develop complex multimedia projects.
-- Utilizing callback functions to handle user interactions and events in their projects.
-- Developing a simple interactive web application using the interactive capabilities of p5.js and HTML/CSS.
+- Shaping form, constructing structure and providing content in visual arts and communication
+- Symmetry, asymmetry, balance, proportion, rhythm, visual hierarchy
+- Designing a compositional strategy for a targeted, functional idea
+- **Lab:** sketch the compositional plan of your project
 
->---
->
->### **Suggested Readings**  
->
->- **Martinec, R., & Van Leeuwen, T.**, The language of new media design: Theory and practice. Routledge 2020
->- **White, A. W.**, The elements of graphic design: space, unity, page architecture, and type. Skyhorse Publishing, Inc.. 2011
->- **Butler, J., Lidwell, W., & Holden, K.**, Universal principles of design (pp. 112-113). Gloucester, MA, USA, 2010, 112–113.: Rockport publishers 2003
->- **Shiffman, D.**, Learning Processing: a beginner's guide to programming images, animation, and interaction. Morgan Kaufmann 2009
->- **Duckett, J.**, HTML & CSS: design and build websites (Vol. 15). Indianapolis, IN, USA, Wiley 2011
->- **McFarland, D. S.**, CSS3: the missing manual. " O'Reilly Media, Inc." 2012
->- **McFarland, D. S.**, Javascript & jQuery: the missing manual. " O'Reilly Media, Inc." 2011
->- **GROß, B., Bohnacker, H., Laub, J., & Lazzeroni, C.**, Generative design: Visualize, program, and create with JavaScript in p5. js. Chronicle Books 2018
->- **Sierra, K., & Bates, B.**, Head First Java: A Brain-Friendly Guide. " O'Reilly Media, Inc." 2005
->- **Flanagan, D.**, Java in a Nutshell. " O'Reilly Media, Inc." 2005
->
->---
+### 3. Programming with Processing (8h)
+
+- Java-Processing for interactive multimedia content
+- Variables, data types, operators and control structures
+- Graphics, animation and sound libraries
+- **Lab:** generative animations in Processing
+
+### 4. Objects and interaction (6h)
+
+- Object-oriented programming: classes, objects, methods
+- Callback functions and event handling (mouse, keyboard)
+- **Lab:** an interactive sketch built from your own classes
+
+### 5. Interactive works for the web: p5.js (8h)
+
+- JavaScript fundamentals with p5.js
+- HTML and CSS: page structure and graphic style
+- From Processing to p5.js: porting a sketch
+- Graphics, animation, interactivity and user input in the browser
+- **Lab:** a simple interactive web application with p5.js and HTML/CSS
+
+## Assessment
+
+**Eligibility test.** A project chosen from the instructor's proposals ([assignments](../../assignments/multimedia-programming/index.md)). Rules and criteria: see [Assessment](index.md#assessment) on the course page.
+
+## Suggested readings
+
+- **Reas, C., & Fry, B.**, Processing: A Programming Handbook for Visual Designers and Artists, 2nd edition. MIT Press 2014.
+- **McCarthy, L., Reas, C., & Fry, B.**, Getting Started with p5.js. Maker Media 2015.
+- **Shiffman, D.**, The Nature of Code. No Starch Press 2024.
+- **Lupton, E., & Phillips, J. C.**, Graphic Design: The New Basics, 2nd edition. Princeton Architectural Press 2015.
 
 ---
 

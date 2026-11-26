@@ -22,9 +22,3 @@ First steps with Csound, Cabbage and Python, plus conda environments.
 | [`cabbage/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/cabbage) | First Cabbage instrument: GUI controls for amplitude and frequency. | Csound | Sound Synthesis & Processing · BA 2 |
 | [`environments/mstpl2.yml`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/environments/mstpl2.yml) | Conda environment. | Conda env | Multimedia Programming · BA 2 |
 | [`environments/mstpl_step1.yml`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/environments/mstpl_step1.yml) | Conda environment. | Conda env | Multimedia Programming · BA 3 |
-
-## Audio and media files
-
-| File | Description | Course |
-|:-----|:------------|:-------|
-| [`test.aif`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/getting-started/test.aif) | Audio example. | Sound Synthesis & Processing · BA 1 |

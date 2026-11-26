@@ -13,11 +13,15 @@ Official course name: *Multimedia Systems, Technologies and Programming Language
 
 ## Course programs
 
-- [Bachelor 1](bachelor-1.md)
-- [Bachelor 2](bachelor-2.md)
-- [Bachelor 3](bachelor-3.md)
-- [Master 1](master-1.md)
-- [Master 2](master-2.md)
+**Path:** create → connect → perceive → sense the body → read the brain
+
+| Year | Focus |
+|:--|:--|
+| [Bachelor 1](bachelor-1.md) | Code as a medium: Processing and p5.js |
+| [Bachelor 2](bachelor-2.md) | Connecting systems: MIDI, OSC, data mapping |
+| [Bachelor 3](bachelor-3.md) | Machines that perceive: OpenCV, audio features, MediaPipe |
+| [Master 1](master-1.md) | Sensing the body: hardware sensors and interaction |
+| [Master 2](master-2.md) | Reading the brain: brain-computer interfaces |
 
 ## Course Objectives
 This course is designed to give students a solid foundation of knowledge and skills in the field of multimedia development. Through exploring programming languages like Java, Processing, JavaScript, p5.js, and Python, students will have the chance to learn the practical skills needed to create interactive and innovative multimedia applications.  
@@ -61,6 +65,23 @@ Specifically:
    - Study design principles of multimedia systems to ensure optimal user experience.
    - Optimize multimedia projects for maximum efficiency and execution speed.
    - Evaluate hardware and software resources needed to support the multimedia systems developed during the course.
+
+## Assessment
+
+Each year of the course ends with a project. Your study plan says whether it counts as an **exam** (graded out of 30) or an **eligibility test** (pass/fail). Each program page says which project applies to that year.
+
+**Which project**
+
+- **Bachelor:** you choose a project from the instructor's proposals, which have different levels of difficulty and require specific knowledge and skills from the course ([see the assignments](../../assignments/multimedia-programming/index.md)).
+- **Master:** you propose a project on the course topics and agree on it with the instructor in advance.
+
+**Criteria:** originality, depth of analysis, quality of implementation, accuracy of results, and your understanding and application of the theoretical concepts of the course.
+
+**Exam.** You present your project: your work, the methods you used and the results. The committee may ask questions and further clarification, and also considers your ability to explain and defend your work clearly. The final grade is based on the project and the discussion.
+
+**Eligibility test.** The project is evaluated with the same criteria and leads to a judgment of eligibility or non-eligibility.
+
+All tests are conducted rigorously, objectively and impartially, with the sole purpose of evaluating the skills and abilities you have acquired.
 
 ## References
 - **Vaughan, T.**, Multimedia: Making it work. McGraw-Hill, Inc. 2006

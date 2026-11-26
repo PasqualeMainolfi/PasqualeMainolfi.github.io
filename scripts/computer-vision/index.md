@@ -16,7 +16,7 @@ OpenCV and MediaPipe.
 | [`base_opencv.ipynb`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/computer-vision/base_opencv.ipynb) | OpenCV basics: capture, resize, frames. | Python (notebook) | Multimedia Programming · BA 3 |
 | [`mediapipe/`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/computer-vision/mediapipe) | Landmark tracking with MediaPipe (uv project). | Python | Multimedia Programming · BA 3 |
 
-## Audio and media files
+## Media files
 
 | File | Description | Course |
 |:-----|:------------|:-------|

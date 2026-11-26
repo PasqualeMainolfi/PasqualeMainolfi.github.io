@@ -26,9 +26,3 @@ MIDI, Open Sound Control and sockets in Python, Csound and Processing.
 | [`lib_logic.udo`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/midi-osc-networking/lib_logic.udo) | UDO library for master_logic.csd. | Csound | Multimedia Programming · BA 2 |
 | [`client.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/midi-osc-networking/client.py) | TCP socket client. | Python | Multimedia Programming · BA 2 |
 | [`server.py`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/midi-osc-networking/server.py) | TCP socket server. | Python | Multimedia Programming · BA 2 |
-
-## Audio and media files
-
-| File | Description | Course |
-|:-----|:------------|:-------|
-| [`test.aif`](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts/midi-osc-networking/test.aif) | Audio example. | Multimedia Programming · BA 2 |

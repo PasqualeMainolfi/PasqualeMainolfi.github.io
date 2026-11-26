@@ -13,30 +13,48 @@ Official course name: *Audio and Music Information Processing for the Internet a
 
 ## Course programs
 
-- [Master 1](master-1.md)
-- [Master 2](master-2.md)
+**Path:** audio as data, one-to-one → an internet performance, many-to-many
+
+| Year | Focus |
+|:--|:--|
+| [Master 1](master-1.md) | Audio as data on the network: latency, codecs, streaming, OSC, first JackTrip session |
+| [Master 2](master-2.md) | A performance over the internet: JackTrip, complex routing, broadcast, live performance |
 
 ## Course Objectives
-The goal of the course is to explore technologies for manipulating audio-video information for the web and mobile systems. Students will grasp fundamental concepts related to multimedia streaming, delve into common audio and video formats, study codecs and compression techniques, learn to utilize FFMPEG (a powerful open-source tool for real-time capture and conversion), Jacktrip (to transmit audio streams over the network without loss of information and with near-zero latency) and develop custom applications for stream management. They will also handle patches for real-time network interaction in Csound and/or Max/MSP using socket send/receive.  
-In the practical part of the course, students will have the opportunity to apply their skills by using FFMPEG and Jacktrip commands and creating custom applications. They will be encouraged to employ frameworks or libraries for intuitive user interfaces and will be guided in developing scripts in Python, Csound or Max/MSP for real-time coding control and management.  
-All of this is aimed at providing students with a solid understanding of principles and practices related to audio-video streaming and how to efficiently and professionally manage multimedia streams using FFMPEG, Jacktrip, Python, Csound, or Max/MSP as key tools.
 
-Specifically:  
+The course is about sound travelling over networks: how audio is encoded, packetized, streamed and synchronized between machines, and how to use all of this to make music together at a distance.
 
-- Acquire an in-depth understanding of the primary audio formats used in mobile communications, such as Opus, MP3, AAC, and FLAC.
-- Grasp the concepts of lossy and lossless audio compression and the principles of common audio codecs.
-- Explore streaming protocols like HTTP Live Streaming (HLS), User Datagram Protocol (UDP), Real-Time Messaging Protocol (RTMP), and Dynamic Adaptive Streaming over HTTP (DASH).
-- Deepen knowledge of Real-time Transport Protocol (RTP) and Real-time Control Protocol (RTCP) for real-time streaming.
-- Familiarize oneself with FFMPEG as a powerful tool for recording, converting, and manipulating audio-video streams.
-- Familiarize yourself with Jacktrip and the Jack Audio Connection Kit for routing and transmitting audio streams over a network.
-- Python and socket.
-- Live coding and Network Audio: send and receive audio data via UDP in Csound or Max/Msp via Jacktrip.
-- Learn to design simple scripts for audio-video conversion.
-- Explore the utilization of frameworks or libraries for creating user interfaces.
-- Design and develop comprehensive applications for audio-video streaming.
+The first year (Master 1) builds the foundations on a one-to-one link: networks and latency, codecs and music information, streaming from scratch with sockets, standard protocols with FFmpeg, network control with OSC and a first JackTrip session. The second year (Master 2) applies them to a real project: the class designs, builds and performs a piece over the internet with JackTrip, complex routing and a public broadcast.
+
+Specifically:
+
+- Understand the latency budget of an audio link and measure latency, jitter and packet loss.
+- Choose between lossless and perceptual codecs (FLAC, MP3, AAC, Opus) for a given quality, bandwidth and latency.
+- Understand audio metadata, content descriptors and audio fingerprinting.
+- Build a UDP audio streamer with a jitter buffer from scratch in Python.
+- Use streaming protocols (RTP/RTCP, RTMP, SRT, HLS, DASH) and FFmpeg to capture, convert and stream audio.
+- Control sound over the network with OSC and sockets in Python, Csound and Max/MSP.
+- Use JACK and JackTrip, from a local session to a remote hub server.
+- Design and perform a networked music piece: architecture, routing, synchronization, broadcast, fail-safe planning.
+
+## Assessment
+
+Each year of the course ends with a project. Your study plan says whether it counts as an **exam** (graded out of 30) or an **eligibility test** (pass/fail). Each program page says which project applies to that year.
+
+**Which project**
+
+- **Master:** you propose a project on the course topics and agree on it with the instructor in advance.
+
+**Criteria:** originality, depth of analysis, quality of implementation, accuracy of results, and your understanding and application of the theoretical concepts of the course.
+
+**Exam.** You present your project: your work, the methods you used and the results. The committee may ask questions and further clarification, and also considers your ability to explain and defend your work clearly. The final grade is based on the project and the discussion.
+
+**Eligibility test.** The project is evaluated with the same criteria and leads to a judgment of eligibility or non-eligibility.
+
+All tests are conducted rigorously, objectively and impartially, with the sole purpose of evaluating the skills and abilities you have acquired.
 
 ## References
-- **Kim H. G., Moreau N., Sikora T.**, MPEG-7 Audio and Beyound, Audio content indexing and retrieval, Wiley 2005
+- **Kim H. G., Moreau N., Sikora T.**, MPEG-7 Audio and Beyond, Audio content indexing and retrieval, Wiley 2005
 - **Watkinson, J.**, The art of digital audio. Taylor & Francis 2001
 - **Watkinson, J.**, The art of digital video. Elsevier Inc. 2008
 - **Smith, M. D., & Telang, R.**, Streaming, sharing, stealing: Big data and the future of entertainment. Mit Press 2016

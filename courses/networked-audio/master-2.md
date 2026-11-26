@@ -7,61 +7,87 @@ nav_order: 2
 
 # Networked Audio: Master 2
 
-|                          |     |
-|:-------------------------|:----|  
-|**Duration of the course**|30h  |
-|**Study hours**           |95h |
-|**CFA**                   |5    |
-|**Prerequisites**         |Networked Audio, Master 1|
-|**Evaluation**            |Elegibility test. Evaluation of a student-selected and implemented verification project, previously agreed upon with the instructor, on the topics covered during the course. The project assessment will consider factors such as originality, depth of analysis, quality of implementation, and accuracy of results. Based on this evaluation, a judgment of eligibility or non-eligibility will be determined for the student. The assessment will also take into account the student's ability to understand and apply the theoretical concepts covered in the course. It's important to note that the test will be conducted fairly and objectively, solely aimed at evaluating the student's skills and abilities.|
-|                          |     |
+**Focus:** A performance over the internet: designing, building and performing a networked piece with JackTrip and complex routing.
 
->**Module 1:**
+**Path:** **Master 1** audio as data, one-to-one → **Master 2 (this course)** an internet performance, many-to-many
 
-- Utilizing FFmpeg for real-time audio capture and transmission
-- Configuration of audio streaming parameters (bitrate, codec, etc.)
-- Real-time video capture and transmission using FFmpeg
-- Configuration of video streaming parameters (resolution, framerate, codec, etc.)
-- Practical examples of video streaming with different protocols (UDP, RTMP, RTP/RTCP, etc.)
-- Audio-video synchronization techniques to ensure proper streaming playback
-- Using FFmpeg to handle synchronization between audio and video streams
+| | |
+|:--|:--|
+| **Duration** | 30h |
+| **Study hours** | 95h |
+| **CFA** | 5 |
+| **Prerequisites** | Networked Audio, Master 1 |
+| **Evaluation** | Eligibility test |
 
->**Module 2:**  
+## Learning outcomes
 
-- Understand basic JackTrip concepts, such as audio networking, server-client architecture
-- Explore the importance of low latency in real-time audio communication
-- Dive deeper into advanced JackTrip concepts, including audio routing, synchronization, and quality control
-- Learn about the benefits and challenges of remote music collaboration
-- Explore different network configurations and their impact on audio quality
+By the end of the course you will be able to:
 
->**Module 3:**  
+- design the architecture of a networked performance: sites, roles, topology and latency targets
+- set up and tune a JackTrip hub server on a remote machine
+- design multichannel routing with separate mixes, saved as reproducible scripts
+- synchronize sites with OSC cues and a shared clock
+- broadcast the performance to a remote audience
+- run soundchecks, handle failures and document the performance
 
-- Designing and set up complex real time interaction scripts via UDP in Csound or Max/Msp using Jacktrip
-- Designing and set up complex script in Python using PyAudio and Socket
-- Designing and set up complex routing (using BlackHole and LoopBack)
-- Focus on the theory behind designing effective collaborative musical sessions using JackTrip
-- Study techniques for managing latency, synchronization, and maintaining audio quality in remote music collaboration
+## Units
 
->**Module 4 (optional):**
+### 1. Concept and architecture (4h)
 
-- Utilizing frameworks or libraries (e.g., Qt, Tkinter) for user interface creation
-- Basic implementation of features such as stream selection, volume control, and *real-time stream display*
+- The piece, the sites and the roles
+- Topologies: peer-to-peer, hub, mixed
+- Latency budget for each site; perceptual thresholds for playing together
+- Latency as compositional material: master/slave, delayed feedback, laid-back and other strategies
+- **Lab:** architecture document: map of sites, roles and latency targets
 
->**Lab:**
+### 2. JackTrip in depth (6h)
 
-- (Optional) Designing and developing a complete application that utilizes FFmpeg for audio-video streaming
-- (Optional) Implementing the user interface for stream control  
-- Practical examples of audio streaming using different protocols (UDP, RTMP, RTP/RTCP, etc.)
-- Practical examples of audio-video synchronization in streaming using FFmpeg
-- Real time interaction in Python, Csound or Max/Msp: control and management patches for real timne interaction over network
-- Jacktrip:  
-  - Practice basic setup and configuration of JackTrip on local machines.
-  - Perform simple audio connections between local computers.
-  - Gain practical experience by setting up and managing a JackTrip server on a remote machine or cloud server.
-  - Experiment with advanced audio routing and quality settings.
-  - Establish connections between local computers and remote JackTrip servers.
-  - Apply the theoretical knowledge from earlier weeks to design and execute collaborative musical sessions.
-  - Plan and conduct practice sessions or performances with fellow students or musicians using JackTrip.
+- Hub server on a remote machine or VPS; patch modes
+- Queue, redundancy, buffer size and bit resolution
+- NAT, firewalls and UDP ports
+- Measuring and tuning a connection
+- **Lab:** a working server and a measured, logged connection between at least two sites
+
+### 3. Complex routing (6h)
+
+- JACK graph design and multichannel routing
+- Separate mixes: performer monitors, audience, stream
+- Csound, Max/MSP or a DAW as JACK clients; BlackHole and Loopback
+- Clock drift between sites
+- Reproducible setups: connections saved as scripts (jack_connect)
+- **Lab:** routing diagram plus a script that rebuilds the whole setup
+
+### 4. Interaction and synchronization (4h)
+
+- OSC between sites: shared cues and clock
+- Control and management patches in Csound, Max/MSP or Python
+- **Lab:** the network control system of the piece
+
+### 5. Broadcasting to the audience (4h)
+
+- From the final mix to the public: FFmpeg to RTMP, SRT or HLS
+- Streaming parameters: codec, bitrate, latency
+- **Lab:** a working public stream of the performance
+
+### 6. Rehearsals and performance (6h)
+
+- Soundcheck protocol and checklists
+- Fail-safe planning: what to do when a link drops
+- Multitrack recording
+- Post-mortem with latency logs
+- **Lab:** the performance
+
+## Assessment
+
+**Eligibility test.** The project is the networked performance itself, together with a technical dossier: architecture, routing diagram and scripts, latency report. Rules and criteria: see [Assessment](index.md#assessment) on the course page.
+
+## Suggested readings
+
+- **Cáceres, J.-P., & Chafe, C.**, JackTrip: Under the Hood of an Engine for Network Audio. Journal of New Music Research, 39(3), 183-187, 2010.
+- **Rottondi, C., Chafe, C., Allocchio, C., & Sarti, A.**, An Overview on Networked Music Performance Technologies. IEEE Access, 4, 8823-8843, 2016.
+- **Chafe, C., Cáceres, J.-P., & Gurevich, M.**, Effect of temporal separation on synchronization in rhythmic performance. Perception, 39(7), 982-992, 2010.
+- **Weinberg, G.**, Interconnected Musical Networks: Toward a Theoretical Framework. Computer Music Journal, 29(2), 23-39, 2005.
+- **JackTrip documentation**, <https://jacktrip.github.io/jacktrip/>
 
 ---
 

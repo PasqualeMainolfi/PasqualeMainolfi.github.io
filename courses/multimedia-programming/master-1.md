@@ -7,60 +7,75 @@ nav_order: 4
 
 # Multimedia Programming: Master 1
 
-|                          |     |
-|:-------------------------|:----|  
-|**Duration of the course**|30h  |
-|**Study hours**           |120h |
-|**CFA**                   |6    |
-|**Prerequisites**         |Bachelor Degree<br>An intermediate knowledge of the Python programming language is required, including: understanding of data structures such as lists, tuples, dictionaries, and sets; comprehension of control structures like if-else statements, for and while loops; ability to handle file input/output (I/O); string manipulation; implementation of lambda functions; and understanding of object-oriented programming concepts such as class creation, inheritance, encapsulation, and polymorphism. Additionally, an intermediate knowledge of the CSound programming language for sound synthesis is required, including familiarity with key audio programming elements: advanced syntax, structures for event control and generation, integration with other tools, utilization of MIDI and OSC protocols, and optimization practices.|
-|**Evaluation**            |Exam. Evaluation and discussion of a student-selected and implemented verification project, previously agreed upon with the instructor, on the topics covered during the course. The project will be assessed based on specific criteria, such as originality, depth of analysis, implementation quality, and correctness of the results. At the end of the evaluation, the student will receive a judgment of eligibility or non-eligibility. The assessment will consider the quality of the work, the student's understanding and application of the theoretical concepts learned in the course. It's important to note that the exam will be conducted rigorously, objectively, and impartially, solely for the purpose of evaluating the student's acquired skills and abilities.|
-|**Notes**                 |Given the need to work with sensors, soldering, and other related hardware aspects, this course will have a close collaboration with the Electroacoustics course COME/04. The collaboration will provide students with the opportunity to integrate sound and audio elements into their multimedia projects, thereby enriching the overall experience and enhancing the interdisciplinarity of the course. Joint sessions or workshops will be conducted, allowing students from both courses to collaborate, share knowledge, and explore the integration of sensors, audio components, and other electroacoustic elements in their multimedia works.|
-|||
+**Focus:** Sensing the body: hardware sensors as the interface between people, artworks and sound.
 
->**Module 1:**
+**Path:** **Bachelor 1** create → **Bachelor 2** connect → **Bachelor 3** perceive → **Master 1 (this course)** sense the body → **Master 2** read the brain
 
-- Role of hardware sensors in multimedia design
-- Analysis of multimedia project requirements
-- Overview of different types of available hardware sensors
-- Analysis of sensor characteristics and functionalities
-- Selection of appropriate sensors based on project needs
-- Considerations for sensor quality, reliability, and technical specifications
-- Evaluation of project costs and constraints
+| | |
+|:--|:--|
+| **Duration** | 30h |
+| **Study hours** | 120h |
+| **CFA** | 6 |
+| **Prerequisites** | Bachelor Degree<br>An intermediate knowledge of the Python programming language is required, including: understanding of data structures such as lists, tuples, dictionaries, and sets; comprehension of control structures like if-else statements, for and while loops; ability to handle file input/output (I/O); string manipulation; implementation of lambda functions; and understanding of object-oriented programming concepts such as class creation, inheritance, encapsulation, and polymorphism. Additionally, an intermediate knowledge of the CSound programming language for sound synthesis is required, including familiarity with key audio programming elements: advanced syntax, structures for event control and generation, integration with other tools, utilization of MIDI and OSC protocols, and optimization practices. |
+| **Evaluation** | Exam |
+| **Notes** | Given the need to work with sensors, soldering, and other related hardware aspects, this course will have a close collaboration with the Electroacoustics course COME/04. The collaboration will provide students with the opportunity to integrate sound and audio elements into their multimedia projects, thereby enriching the overall experience and enhancing the interdisciplinarity of the course. Joint sessions or workshops will be conducted, allowing students from both courses to collaborate, share knowledge, and explore the integration of sensors, audio components, and other electroacoustic elements in their multimedia works. |
 
->**Module 2:**
+## Learning outcomes
 
-- Definition of physical integration methods between sensors and artwork
-- Ergonomic and design considerations for sensor integration
+By the end of the course you will be able to:
+
+- choose sensors for a project from its requirements, specifications and costs
+- connect sensors to a processing system (microcontrollers, serial communication)
+- filter, normalize and calibrate sensor data
+- design, test and refine user-sensor-artwork interactions
+- plan the staging, installation or exhibition of an interactive work
+
+## Units
+
+### 1. Sensors in multimedia design (6h)
+
+- The role of hardware sensors in multimedia design
+- Analysis of project requirements
+- Types of sensors, characteristics and functionalities
+- Choosing sensors: quality, reliability, specifications, costs and constraints
+- **Lab:** requirements and sensor selection for a sample project
+
+### 2. Physical integration and communication (6h)
+
+- Physical integration of sensors in the artwork
+- Ergonomic and design considerations
 - Connection and communication between sensors and the processing system
+- **Lab:** wiring and programming the data acquisition (e.g. Arduino)
 
->**Module 3:**
+### 3. Sensor data processing (6h)
 
-- Collection and processing of data from sensors
-- Filtering and normalization of sensor data
-- Definition of events generated by sensors and corresponding response actions
-- Implementation of user-sensor-artwork interaction
+- Collecting and processing sensor data
+- Filtering and normalization
+- Calibration
+- **Lab:** filtering and normalization algorithms for real sensor data
+
+### 4. Interaction design (6h)
+
+- Events generated by sensors and corresponding response actions
+- User-sensor-artwork interaction
 - Testing and optimization of interaction and response
+- **Lab:** programming the interactions of the sample project (Python, Java, Arduino…)
 
->**Module 4:**
+### 5. Presentation and staging (6h)
 
-- Preparation and organization of multimedia project presentation
-- Considerations for utilization, staging, installation, and/or exhibition of the artwork
+- Preparing and organizing the presentation of a multimedia project
+- Use, staging, installation and exhibition of the artwork
+- **Lab:** presentation of the project
 
->**Lab:**
+## Assessment
 
-- Identification of specific requirements for a sample project
-- Discussion of potential user-sensor-artwork interactions to be implemented
-- Configuration and programming of the system for data collection from sensors
-- Implementation of filtering and normalization algorithms for sensor data
-- Definition of events generated by sensors and corresponding response actions, and programming of user-sensor-artwork interactions using an appropriate programming language (e.g., Python, Java, Arduino, etc.)
+**Exam.** A project on the course topics, agreed with the instructor in advance. Rules and criteria: see [Assessment](index.md#assessment) on the course page.
 
->---
->
->### **Suggested Readings**  
->
->- **I strongly recommend visiting the NIME portal at <https://www.nime.org/>. You will find a wide range of articles that will expand your horizons**
->
->---
+## Suggested readings
+
+- **Fraden, J.**, Handbook of Modern Sensors: Physics, Designs, and Applications, 5th edition. Springer 2016.
+- **Miranda, E. R., & Wanderley, M. M.**, New Digital Musical Instruments: Control and Interaction Beyond the Keyboard. A-R Editions 2006.
+- **Hunt, A., & Wanderley, M. M.**, Mapping performer parameters to synthesis engines. Organised Sound, 7(2), 97-108, 2002.
 
 ---
 

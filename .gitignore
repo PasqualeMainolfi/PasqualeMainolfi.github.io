@@ -18,3 +18,18 @@ _site/
 .jekyll-cache/
 .sass-cache/
 Gemfile.lock
+
+# audio files (local only)
+*.wav
+*.WAV
+*.aif
+*.aiff
+*.aifc
+*.aac
+*.mp3
+*.flac
+*.ogg
+*.oga
+*.opus
+*.m4a
+*.caf
