@@ -1,0 +1,49 @@
+// Black & white details
+
+// links are black: underline them so they stay recognizable
+.main-content a:not([class]) {
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-thickness: 2px;
+  }
+}
+
+// active page in the sidebar
+.site-nav .nav-list .nav-list-item .nav-list-link.active {
+  font-weight: 700;
+  background-image: none;
+  background-color: #f2f2f2;
+}
+
+// grayscale code highlighting
+.highlight,
+pre.highlight {
+  background-color: #f5f5f5;
+}
+
+.highlight * {
+  color: #111111 !important;
+  background-color: transparent !important;
+}
+
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cs,
+.highlight .cp {
+  color: #777777 !important;
+  font-style: italic;
+}
+
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .nf,
+.highlight .nc {
+  font-weight: 700;
+}

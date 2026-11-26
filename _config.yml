@@ -9,7 +9,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-optional-front-matter
 
-color_scheme: light
+color_scheme: bw
 search_enabled: true
 heading_anchors: true
 back_to_top: true
@@ -33,13 +33,13 @@ relative_links:
 callouts:
   note:
     title: Note
-    color: blue
+    color: grey
   tip:
     title: Tip
-    color: green
+    color: grey
   important:
     title: Important
-    color: yellow
+    color: grey
 
 exclude:
   - README.md
