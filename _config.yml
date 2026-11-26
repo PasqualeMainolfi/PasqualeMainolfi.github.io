@@ -33,13 +33,13 @@ relative_links:
 callouts:
   note:
     title: Note
-    color: grey
+    color: grey-dk
   tip:
     title: Tip
-    color: grey
+    color: grey-dk
   important:
     title: Important
-    color: grey
+    color: grey-dk
 
 exclude:
   - README.md
