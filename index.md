@@ -28,7 +28,7 @@ Before anything else, join the Telegram channel **@PasqualeMainolfi**. I use it 
 | Section | What you find there |
 |:--------|:--------------------|
 | [Lecture Notes](lecture-notes/index.md) | Handouts (PDF) grouped by topic. |
-| [Scripts](scripts/index.md) | Code from the lessons (Csound, Python, Processing, Arduino…), grouped by topic. |
+| [Scripts](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts) | Code from the lessons (Csound, Python, Processing, Arduino…), grouped by topic in the `scripts/` folder on GitHub. |
 | [Assignments](assignments/index.md) | Exam projects for each course and year. |
 
 ## Information

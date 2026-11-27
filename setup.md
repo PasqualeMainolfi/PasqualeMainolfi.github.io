@@ -72,7 +72,7 @@ Notes:
 - `ctcsound` (Python ↔ Csound) needs [Csound](#csound) installed.
 - If a package refuses to install on the latest Python (this sometimes happens with `tensorflow` and `mediapipe`), pin an older version and retry: `uv python pin 3.12`.
 - Notebooks (`.ipynb`): open them directly in VS Code, or run `uv add jupyterlab` and then `uv run jupyter lab`.
-- Projects in the [Scripts](scripts/index.md) section that contain a `pyproject.toml` are already uv projects: `cd` into the folder and run `uv sync`.
+- Projects in the [`scripts/` folder](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts) that contain a `pyproject.toml` are already uv projects: `cd` into the folder and run `uv sync`.
 
 ## Code editor: Zed or VS Code {#code-editor}
 

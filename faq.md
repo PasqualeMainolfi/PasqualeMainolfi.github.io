@@ -24,7 +24,7 @@ nav_order: 7
 : Missed hours cannot be made up, even when the absence is justified. You can miss up to 30% of the total hours of your course without losing the right to be evaluated.
 
 **Where do I find lecture notes, code and assignments?**
-: In the [Lecture Notes](lecture-notes/index.md), [Scripts](scripts/index.md) and [Assignments](assignments/index.md) sections.
+: In the [Lecture Notes](lecture-notes/index.md), [Scripts](https://github.com/PasqualeMainolfi/PasqualeMainolfi.github.io/tree/main/scripts) and [Assignments](assignments/index.md) sections.
 
 **Are extraordinary exam sessions possible?**
 : Only when strictly necessary. Contact me by email.

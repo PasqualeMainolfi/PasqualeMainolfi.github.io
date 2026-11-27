@@ -13,7 +13,7 @@ Updates and communications: Telegram channel `@PasqualeMainolfi`.
 | `index.md` | Home page |
 | `courses/` | Course descriptions and yearly programs |
 | `lecture-notes/` | Handouts (PDF) |
-| `scripts/<category>/` | Code examples grouped by topic |
+| `scripts/<category>/` | Code examples grouped by topic (not published as pages: the site links to this folder on GitHub) |
 | `assignments/` | Exam projects |
 | `setup.md` | Workspace setup (software installation) |
 | `calendar.md`, `faq.md`, `thesis.md` | Calendar, FAQ, thesis guidelines |

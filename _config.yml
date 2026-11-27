@@ -46,18 +46,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - scripts
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-  # code folders: only the index pages appear in the navigation
-  - scope:
-      path: scripts
-    values:
-      nav_exclude: true
-      search_exclude: true
   - scope:
       path: assignments
     values:
